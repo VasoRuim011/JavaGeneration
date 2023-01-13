@@ -56,3 +56,27 @@ public static void main(String[] args) {
 			System.out.println("\nTotal de pessoas maiores de 50 anos: "+maior50);
 	}
 }
+
+
+
+//Exercício 3
+
+
+int x,soma=0,pos=0;
+
+	do
+	{
+	System.out.println("\nDigite um número (Para sair aperte o 0): ");
+	x=leia.nextInt();
+	
+	if(x>0)
+	{
+		soma=x+soma;
+		pos++;
+	}
+				
+}while(x!=0);
+	System.out.println("\nA soma dos numeros positivos é: "+soma);
+}
+
+}
